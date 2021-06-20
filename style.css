@@ -1,10 +1,13 @@
-body{
-    
-    background: url(https://source.unsplash.com/random);
-    z-index: inherit;
+body::before{
+    content: " ";
+    background: url(https://images.unsplash.com/photo-1507608158173-1dcec673a2e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
     background-size: cover;
-    opacity: 0.8;
-
+    position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.4;
     
 }
 
@@ -31,7 +34,11 @@ h1 {
     text-shadow: 5px 0 #232912;
     font-family: 'Press Start 2P', cursive;
     font-size: 2rem;
+    font-weight: 1000;
     color: rgb(58, 194, 137);
+    
+  line-height: 1.5;
+  text-align: center;
 }
 
 p {
@@ -42,6 +49,10 @@ p {
 
 img {
     width: 80%;
+    border-radius: 13px;
+background: #e0e0e0;
+box-shadow:  15px -15px 11px #b3b3b3,
+             -15px 15px 11px #ffffff;
 }
 
 footer {
