@@ -1,0 +1,53 @@
+body{
+    
+    background: url(https://source.unsplash.com/random);
+    z-index: inherit;
+    background-size: cover;
+    opacity: 0.8;
+
+    
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+}
+  
+.dice {
+    text-align: center;
+    display: inline-block;
+  
+}
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 30px;
+    text-shadow: 5px 0 #232912;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    color: rgb(58, 194, 137);
+}
+
+p {
+    font-size: 2rem;
+    color: #0b70b4;
+    font-family: 'Abril Fatface', cursive;
+}
+
+img {
+    width: 80%;
+}
+
+footer {
+    margin-top: 10%;
+    color: #746a6a;
+    text-align: center;
+    font-family: 'Ubuntu Mono', cursive;
+  
+  }
