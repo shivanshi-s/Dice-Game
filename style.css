@@ -50,9 +50,9 @@ p {
 img {
     width: 80%;
     border-radius: 13px;
-background: #e0e0e0;
-box-shadow:  15px -15px 11px #b3b3b3,
-             -15px 15px 11px #ffffff;
+background: #d6a4a4;
+box-shadow:  15px -15px 11px #99935fa2,
+             -15px 15px 11px #c09d9d;
 }
 
 footer {
