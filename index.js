@@ -78,3 +78,6 @@ var randomNumber2...blah blah.
 var randomImageSource2 = "assets/dice"+randomNumber2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2)
 */
+function Refresh() {
+    window.parent.location = window.parent.location.href;
+    }

@@ -1,15 +1,12 @@
 
-body::before{
-    content: " ";
-    background: url(https://images.unsplash.com/photo-1507608158173-1dcec673a2e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+body{
+    background: url(https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80) no-repeat center fixed;
     background-size: cover;
     position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.4;
-    
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;   
 }
 
 .container {
@@ -18,16 +15,18 @@ body::before{
     text-align: center;
     display:flex;
     justify-content: center;
+    z-index: 999;
 }
   
 .dice {
     text-align: center;
     display: inline-block;
-  
+    z-index: 999;
 }
 .box {
     display: flex;
     justify-content: center;
+    z-index: 999;
 }
 
 h1 {
@@ -62,4 +61,11 @@ footer {
     text-align: center;
     font-family: 'Ubuntu Mono', cursive;
     z-index: 1;
-  }
+}
+
+button {
+    top: 0%;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
